@@ -1,0 +1,113 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp1836699.jpg);
+    background-size: cover;
+}
+
+
+
+.btn-twitter{
+    background-color: #31a1f2;
+    color: rgb(238, 89, 163);
+}
+
+a.btn-twitter:hover{
+    color: rgb(226, 151, 195);
+    box-shadow: -2px 3px 6px black;
+}
+
+/* GLOBAL */
+
+body, html, .container, .row{
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+/*
+
+    ESTILOS FORMULARIO
+
+*/
+
+div.col-lg-4
+{
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom, #db15cb, #19ddeb) 1;
+}
+
+button.btn-success
+{
+    margin: 10px 0px;
+    background-image: linear-gradient(to bottom, #e2189f, #20d6ee);
+    border: 0;
+}
+
+div.form-group{
+    margin: 10px auto;
+}
+
+/*
+
+    ESTILOS TARJETA
+    
+*/
+
+.col-lg-7 .card-header, .card-footer{
+    background-image: linear-gradient(to right, #ad147f, #4fe0e6);
+    color: white;
+    font-weight: 700;
+}
+
+.card-body
+{
+    background-image: url('https://cdn.pixabay.com/photo/2020/09/21/15/21/background-5590342__340.png');
+}
+
+.card-content
+{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+    background-color: none ;
+    width: fit-content;
+    margin: 5px auto;
+    padding: 50px 20px;
+    border: 10px solid rgb(226, 122, 247);
+    font-size: 20px;
+    color: #940767;
+}
+
+.card-content img
+{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: 0px auto 25px auto;
+}
+
+.card-title
+{
+    font-weight: 700;
+    background: linear-gradient(to bottom,#1e1e96, #223946);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Student
+{
+    font-weight: 700;
+}
+
+.Aprendido
+{
+    font-size: 20px;
+}
+p{
+    
+}
